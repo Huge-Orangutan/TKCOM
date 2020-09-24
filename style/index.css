@@ -1,0 +1,376 @@
+.jSlider{
+	box-shadow: 1px 1px 5px #dbe9f0;
+}
+.introduce{
+	background-color: #f6f6f6;
+}
+.show{
+	padding-top: 3.6rem;
+	display: flex;
+	justify-content: center;
+}
+.card{
+		width: 15.75rem;
+		box-shadow: 5px 2px 5px #bebebe;
+		border: 0.01rem solid #e5e5e5;
+}
+.card:nth-child(2){
+	margin: 0 0.8rem;
+}
+.card-top{
+	position: relative;
+	background-color: #2395CB;
+	padding-bottom: 1.5rem;
+}
+.card-top-green .card-top{
+	background-color: #3ed1a4;
+}
+.card-top-purple .card-top{
+	background-color: #895ea3;
+}
+.card-top img{
+	width: 2.65rem;
+	height: 2.65rem;
+	padding: 0.75rem 0;
+	margin: 0 auto;
+}
+.card-top p{
+	font-family: AdobeHeitiStd-Regular;
+	font-size: 0.9rem;
+	line-height: 0.9rem;
+	letter-spacing: 0rem;
+	color: #f6f6f6;
+	text-align: center;
+	margin-bottom: 0.75rem;
+}
+.card-top p:nth-child(3){
+	margin-bottom: 0.3rem;
+}
+.card-top .line{
+	width: 5.3rem;
+	height: 0.05rem;
+	background-color: #ffffff;
+	margin: 0 auto;
+	
+}
+.card-top .triangle{
+	  position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		bottom: -2.1rem;
+    border-style: solid;
+		border-width: 1.1rem 1.1rem 1.1rem 1.1rem ;
+    border-color: #2395CB transparent transparent transparent;
+}
+.card-top-green .triangle{
+	 border-color: #3ed1a4 transparent transparent transparent;
+}
+.card-top-purple .triangle{
+	 border-color: #895ea3 transparent transparent transparent;
+}
+.card-center{
+	height: 8.9rem;
+	border-bottom: 0.1rem dashed #C1C1C1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.card-center>div>p{
+	font-family: AdobeHeitiStd-Regular;
+	font-size: 0.8rem;
+  line-height: 0.8rem;
+	letter-spacing: 0rem;
+	color: #000000;
+	margin-bottom: 0.85rem;
+}
+.card-center .content{
+	display: flex;
+}
+.card-top-blue .card-center .content img{
+	width: 5.55rem;
+	height: 4.9rem;
+}
+.card-center .content>p:nth-child(2){
+	font-size: 0.7rem;
+	line-height: 1.2rem;
+	letter-spacing: 0rem;
+	color: #272727;
+	margin-left: 1.3rem;
+}
+.card-bottom {
+	height: 6.35rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.card-bottom ul li{
+	font-family: AdobeHeitiStd-Regular;
+	font-size: 0.7rem;
+	line-height: 0.7rem;
+	letter-spacing: 0rem;
+	color: #272727;
+}
+.card-bottom ul li:nth-child(2){
+	margin: 0.5rem 0;
+}
+.card-bottom li::before{
+	  content: "\2022"; 
+	  color: #148AE0;  
+	  font-size: 16px;       
+}
+.card-top-green .card-center img{
+	width: 100%;
+}
+.card-top-green .card-bottom{
+	flex-direction: column;
+}
+.card-top-green .card-bottom p:nth-child(1){
+	font-family: AdobeHeitiStd-Regular;
+	font-size: 0.9rem;
+	letter-spacing: 0rem;
+	line-height: 0.9rem;
+	color: #2395cb;
+}
+.card-top-green .card-bottom p:nth-child(2){
+	font-family: AdobeHeitiStd-Regular;
+	font-size: 0.6rem;
+	font-weight: normal;
+	line-height: 0.7rem;
+	letter-spacing: 0rem;
+	color: #272727;
+	margin-top: 0.3rem;
+}
+.card-top-purple .card-center img{
+	width: 93.5%;
+}
+.card-top-purple .card-bottom p {
+	font-family: AdobeHeitiStd-Regular;
+	font-size: 0.6rem;
+  line-height: 1.3rem;
+	letter-spacing: 0rem;
+	color: #272727;
+	position: relative;
+}
+.card-top-purple .card-bottom p::before {
+  content: '“';
+	font-size: 3rem;
+	position: absolute;
+	margin-left: -3rem;
+	color: #d8d8d8;
+	letter-spacing: 0rem;
+}
+.card-top-purple .card-bottom p::after {
+  content: '”';
+	font-size: 3rem;
+	right:0;
+	position: absolute;
+	margin-right: -3rem;
+	margin-top: 1rem;
+	color: #d8d8d8;
+	letter-spacing: 0rem;
+}
+.about{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.about .message{
+	width: 100%;
+	height: 17.15rem ;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url(../image/index/banner.png);
+  background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.about>p:nth-child(1){
+	margin-top: 3.05rem;
+	font-family: MicrosoftYaHei-Bold;
+	font-size: 0.911rem;
+	line-height: 0.911rem;
+	letter-spacing: 0.055rem;
+	color: #272727;
+	font-weight: bold;
+}
+.about>p:nth-child(2){
+	margin-top: 0.65rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.608rem;
+  line-height: 0.608rem;
+	letter-spacing: 0.01rem;
+	color: #999999;
+	margin-bottom: 2.75rem;
+}
+.about .message p{
+	margin-top: 2.15rem;
+	font-family: MicrosoftYaHei;
+	font-size: 0.7rem;
+	letter-spacing: 0.04rem;
+	color: #272727;
+	text-align: center;
+	line-height: 1.2rem;
+	margin-bottom: 1.75rem;
+}
+.about .img-show{
+	height:8.45rem;
+	width: 82%;
+	display: flex;
+	background-color: white;
+	align-items: center;
+	overflow: scroll;
+	
+}
+.about .img-show img{
+	height: 90%;
+	border: 1px solid #e8e8e8;
+}
+.call{
+	display: flex;
+	width: 84%;
+	margin: 0 auto;
+	margin-top: 2.6rem;
+	margin-bottom: 3.05rem;
+}
+.call .data-detail{
+	display: flex;
+	margin-bottom: 2rem;
+	height: 9.4rem;
+}
+.call .data-detail .QR-code{
+	padding-top: 0.3rem;
+	text-align: center;
+	font-family: MicrosoftYaHei;
+	font-size: 0.6rem;
+	line-height: 0.6rem;
+	letter-spacing: 0.01rem;
+	color: #030303;
+	width: 7.05rem;
+	border: #ebebeb solid 1px;
+}
+.call .data-detail .QR-code img{
+	width: 6.25rem;
+	height: 6.25rem;
+	margin: 0 auto;
+	margin-bottom: 0.6rem;
+}
+.call .data-detail .QR-code p:nth-child(2){
+  margin-bottom: 0.45rem;
+}
+.call .data-detail .QR-code p:nth-child(3){
+  margin-bottom: 0.55rem;
+}
+
+.call ul li{
+	display: flex;
+	font-family: MicrosoftYaHei;
+	font-size: 0.7rem;
+	line-height: 0.7rem;
+	letter-spacing: 0.015rem;
+	color: #666666;
+	align-items: center;
+}
+.data-detail>div:nth-child(2){
+	display: flex;
+	align-items: center;
+}
+.call ul{
+	height: 90%;
+	margin-left: 1.3rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.call .input{
+	flex:1
+}
+.call .map img{
+	width:21.4rem;
+	height:9.75rem;
+}
+.input{
+	font-family: MicrosoftYaHei;
+	font-size: 0.7rem;
+	line-height: 0.7rem;
+	letter-spacing: 0.04rem;
+	color: #666666;
+	margin-left: 2.05rem;
+}
+.input div{
+	margin-bottom: 0.45rem;
+}
+.input input{
+	width: 30.2rem;
+	height: 1.7rem;
+	background-color: #f9f8f8;
+	border: solid 0.05rem #d4d2d2;
+	margin-bottom: 0.95rem;
+}
+.input textarea{
+	width: 30.2rem;
+	resize:none;
+	background-color: #f9f8f8;
+	border: solid 0.05rem #d4d2d2;
+	height: 6rem;
+}
+.input button{
+	width: 4.7rem;
+	height: 1.5rem;
+	background-color: #3c9cd3;
+	color: white;
+	font-family: MicrosoftYaHei;
+	font-size: 0.6rem;
+	letter-spacing: 0.035rem;
+	color: #ffffff;
+	margin-top: 0.2rem;
+	border: unset;
+}
+.p2{
+	display: none;
+}
+	form{
+		display: flex;
+		flex-direction: column;
+		
+	}
+@media only screen and (max-width : 1023px){
+	.show{
+		flex-direction: column;
+		align-items: center;
+	}
+	.call{
+		flex-direction: column;
+	}
+	.data-detail, .map{
+		display: flex;
+		justify-content: center;
+	}
+	.call .input{
+		margin-top: 2rem;
+		margin-left: 0;
+	}
+	.call .input div{
+		width: 21.4rem;
+	}
+	.call .input input{
+		width: 21.4rem;
+	}
+	.card{
+		margin-bottom: 1rem !important;
+	}
+	textarea{
+		width: 21.4rem !important;
+		margin-bottom: 0.45rem;
+	}
+	.message p{
+		font-size: 12px !important;
+		white-space: normal;
+	}
+	.p1{
+		display: none;
+	}
+	.p2{
+		width: 80%;
+		display: block;
+	}
+}
